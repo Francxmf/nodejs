@@ -11,12 +11,16 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "nodemon": "^2.0.20",
     "supertest": "^6.3.0"
   },
   "scripts": {
     "start": "node server.js",
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "start:dev": "nodemon --watch dist/ --watch .env"
   },
   "name": "exercise-9",
   "version": "1.0.0",
