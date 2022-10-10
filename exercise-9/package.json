@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "jest": "^29.1.2"
+  },
+  "dependencies": {
+    "supertest": "^6.3.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "name": "exercise-9",
+  "version": "1.0.0",
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
