@@ -9,3 +9,12 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Frankosmodel {
+    id           Int  @id@default(autoincrement())
+    name         String    @db.VarChar(255)
+    description  String?
+    paramx       Int 
+    createdAt    DateTime   @default(now())
+    updatedAt    DateTime   @updatedAt 
+}
